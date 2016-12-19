@@ -1,0 +1,10 @@
+ReadME
+
+This code runs on a ATTiny 84 using hall effect senors as the "switches" 
+
+The device if not lit will go to sleep after ten minuets of inactivity. It will then wake up every two seconds, 
+power up the sensors and look to see the "power putton" is being pushed by holding  magnet near the power sensor.
+If that is not happening it will then go back to sleep and start over again. This sleep mode is very low power. 
+In my case around 7 microamps.
+
+If the button is being "pressed" then the hardware resets all inputs and outputs and then turn on the light.

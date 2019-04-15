@@ -1,3 +1,4 @@
+#include <arduino.h>
 #include <avr/sleep.h>
 #include <avr/wdt.h>
 

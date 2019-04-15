@@ -2,8 +2,6 @@
 #include <avr/sleep.h>
 #include <avr/wdt.h>
 
-
-
 #ifndef cbi     // the following is needed to make sure the SLEEP system works.
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
 #endif

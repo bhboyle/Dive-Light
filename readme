@@ -11,4 +11,5 @@ In my case around 7 microamps.
 
 If the button is being "pressed" then the hardware resets all inputs and outputs and then turn on the light.
 
-The light uses the NV ram in the ATTniny 84 to remember the power level last used and will always turn on at the last used intensity level. 
+The light uses the NV ram in the ATTniny 84 to remember the power level last used and will always turn on at 
+the last used intensity level. 
